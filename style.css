@@ -1,0 +1,206 @@
+@font-face {
+    font-family: "HuluStyle Bold";
+    src: url(assets/Hulustyle/Hulustyle/TTF/hulustyle-bold-webfont.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "HuluStyle Extra Bold";
+    src: url(assets/Hulustyle/Hulustyle/TTF/hulustyle-extrabold-webfont.ttf) format("truetype");
+}
+
+
+body {
+    background-color: black;
+}
+
+button {
+    font-family: "Nunito Sans";
+    font-size: 14px;
+    border: 2px solid white;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+.nav_link:link, .nav_link:visited {
+    font-family: "Nunito Sans", Helvetica, Arial, sans-serif; 
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bolder;
+    color: white;
+    padding: 30px;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+/* Find out why link color won't change on hover */
+.nav-link:hover {
+    color: gray;
+}
+
+/* Figure out fade/gradient for this */
+.top_container {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(assets/ckbvd0gyz00xg19mlsu9nayv7-homepage-masthead-test-desktop-3200x1320-v4c-6-16-20.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    height:565px;
+    font-family: "Nunito Sans", Helvetica, Arial, sans-serif;
+}
+
+.hero_container {
+    margin-top: 40px;
+color: white;
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+justify-content: space-between;
+}
+
+.eyebrow {
+    font-family: Helvetica;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bolder;
+    color: #1FBD9D;
+    letter-spacing: 0.5px;
+    padding: 15px;
+}
+
+.logo{
+    width: 280px;
+    height: 85px;
+    margin: 15px 0 20px 0;
+}
+
+.watch {
+    font-family: 'HuluStyle Bold';
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 30px;
+    padding: 10px 0 20px 0;
+}
+.trial_btn {
+    color: black;
+    background-color: white;
+    padding: 15px 30px;
+    margin: 30px 0 20px 0;
+}
+
+.package {
+    height: 80px;
+    width: 325px;
+}
+
+.bundle_section {
+    background-image: linear-gradient(to right, #081822, #0c232f, #0e2e3c, #0f3a4a, #0f4657); 
+    font-family: "Nunito Sans", Helvetica, Arial, sans-serif;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 25px 150px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+
+.bundle_btn {
+    color: white;
+    background-color: transparent;
+    padding: 15px;
+}
+
+.terms, .details, .trial_info, .terms:hover, .details:hover {
+    color: #B6C1C4;
+}
+
+.details {
+    display: flex;
+    font-size: 14px;   
+}
+.terms {
+font-size: 10px;
+display: flex;
+margin-top: 10px;
+margin-left: 35px;
+}
+
+.features{
+color: white;
+display: grid;
+justify-content: center;
+
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: auto;
+    grid-gap: 1.5rem;
+    margin: 0 20px;
+    
+}
+
+
+.headline {
+    font-family: "HuluStyle Extra Bold", Helvetica, Arial, sans-serif;
+    font-size: 70px;
+    
+}
+
+.bottom_section_headlines {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.subheadline {
+    font-family: "Nunito Sans", Helvetica, Arial, sans-serif;
+    font-size: 20px; 
+    margin: 20px  0 30px 0;
+    font-weight: lighter;
+}
+.eyebrow_type2 {
+    font-family: "Nunito Sans", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    margin: 20px 0 0 20px;
+}
+
+.category { 
+    font-family: "HuluStyle Bold", Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    margin-left: 20px;
+}
+
+.past, .new, .originals, .premium {
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 475px;
+    
+  
+}
+.past {
+background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("assets/ckllond4i0i9w1u7ghnu91j1b-bobsburgers-category-tile-294x450-1x.jpg")
+}
+
+.new {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("assets/cklms7f221g6z1u6ye8eurm1e-unitedstatesvsbillieholiday-category-tile-294x450-1x-1.jpg")
+}
+
+.originals {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("assets/ckllpbyhp0pww1ua273ct30sb-solaropposites-category-tile-294x450-1x-1.jpg")
+}
+
+.premium {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("assets/cklms8tz01g9l1ub0lnnjocwk-cityonahill-category-tile-294x450-1x-1.jpg");
+
+}
+
+
+.fineprint {
+    padding-top: 380px;
+    font-size: 10px;
+}
